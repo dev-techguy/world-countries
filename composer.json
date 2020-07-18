@@ -1,5 +1,5 @@
 {
-    "name": "techguy/world-countries",
+    "name": "techguy/world-countries-api",
     "description": "This package has api pointing to https://restcountries.eu. Fetches and stores all the countries in your local database.",
     "type": "library",
     "require": {
@@ -19,7 +19,7 @@
             "email": "vincent@shiftech.co.ke"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "World\\Countries\\": "src/"
