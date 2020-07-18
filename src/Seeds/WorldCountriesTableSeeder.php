@@ -28,19 +28,21 @@ class WorldCountriesTableSeeder extends Seeder
     {
         // create countries
         $countries = $this->makeRequest();
-        $currencyCode = '';
+        $currencyCode = $currencyName = '';
 
         foreach ($countries as $country) {
             // loop to get the currencyCode
             foreach ($country->currencies as $currency) {
                 $currencyCode = $currency->code;
+                $currencyName = $currency->name;
             }
 
             // create model parameters
             $saveCountry = [
                 [
                     'id' => Uuid::generate()->string,
-                    'slug' => Str::slug($country->name),
+                    'name' => $country->nativeName,
+                    'slug' => Str::slug($country->nativeName),
                     'data' => json_encode([
                         'name' => $country->name,
                         'capital' => $country->capital,
@@ -48,6 +50,7 @@ class WorldCountriesTableSeeder extends Seeder
                         'short2Code' => $country->alpha2Code,
                         'short3Code' => $country->alpha3Code,
                         'currencyCode' => $currencyCode,
+                        'currencyName' => $currencyName,
                         'callingCode' => $country->callingCodes[0],
                     ]),
                     'created_at' => now(),

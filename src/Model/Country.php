@@ -26,6 +26,7 @@ class Country extends Model
      * @var array
      */
     protected $guarded = [
+        'name',
         'slug',
         'data',
     ];
