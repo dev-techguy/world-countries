@@ -1,8 +1,7 @@
 # <p align="center"><a href="#" target="_blank"><img src="https://knowledge.wharton.upenn.edu/wp-content/uploads/2019/01/country-flags-rankings.jpg"></a></p>
 
 <p align="center">
- <center>
-   <h2><b>World countries API</b></h2><br>
+   <h2 align="center"><b>World Countries API</b></h2><br>
    <a href="https://github.com/dev-techguy/world-countries/issues">
    <img src="https://img.shields.io/github/issues/dev-techguy/world-countries.svg">
    </a>
@@ -22,7 +21,6 @@
    <img src="https://poser.pugx.org/techguy/world-countries-api/downloads">
    </a>
    <br><br>
-   </center>
 </p>
 
 ## Introduction
