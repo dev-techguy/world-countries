@@ -2,21 +2,24 @@
 
 <p align="center">
  <center>
-  <h2><b>World countries API</b></h2><br>
+   <h2><b>World countries API</b></h2><br>
    <a href="https://github.com/dev-techguy/world-countries/issues">
-   <img src="https://img.shields.io/github/issues/SHIFTECH-AFRICA/shift-code-generator.svg">
+   <img src="https://img.shields.io/github/issues/dev-techguy/world-countries.git">
    </a>
-   <a href="https://github.com/SHIFTECH-AFRICA/shift-code-generator/network/members">
-   <img src="https://img.shields.io/github/forks/SHIFTECH-AFRICA/shift-code-generator.svg">
+   <a href="https://github.com/dev-techguy/world-countries/network/members">
+   <img src="https://img.shields.io/github/forks/dev-techguy/world-countries">
    </a>
-   <a href="https://github.com/SHIFTECH-AFRICA/shift-code-generator/stargazers">
-   <img src="https://img.shields.io/github/stars/SHIFTECH-AFRICA/shift-code-generator.svg">
+   <a href="https://github.com/dev-techguy/world-countries/stargazers">
+   <img src="https://img.shields.io/github/stars/dev-techguy/world-countries">
    </a>
-   <a href="https://packagist.org/packages/shiftechafrica/shift-code-generator">
-   <img src="https://poser.pugx.org/shiftechafrica/shift-code-generator/v/stable">
+   <a href="https://github.com/dev-techguy/world-countries/blob/master/LICENSE">
+   <img src="https://img.shields.io/github/license/dev-techguy/world-countries">
    </a>
-   <a href="https://packagist.org/packages/shiftechafrica/shift-code-generator">
-   <img src="https://poser.pugx.org/shiftechafrica/shift-code-generator/downloads">
+   <a href="https://packagist.org/packages/techguy/world-countries-api">
+   <img src="https://poser.pugx.org/techguy/world-countries-api/v/stable">
+   </a>
+   <a href="https://packagist.org/packages/techguy/world-countries-api">
+   <img src="https://poser.pugx.org/techguy/world-countries-api/downloads">
    </a>
    <br><br>
    </center>
