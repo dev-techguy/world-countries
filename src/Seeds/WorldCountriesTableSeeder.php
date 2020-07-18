@@ -41,8 +41,8 @@ class WorldCountriesTableSeeder extends Seeder
             $saveCountry = [
                 [
                     'id' => Uuid::generate()->string,
-                    'name' => $country->nativeName,
-                    'slug' => Str::slug($country->nativeName),
+                    'name' => $country->name,
+                    'slug' => Str::slug($country->name),
                     'data' => json_encode([
                         'name' => $country->name,
                         'capital' => $country->capital,
