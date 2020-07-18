@@ -2,23 +2,23 @@
 
 <p align="center">
    <h2 align="center"><b>World Countries API</b></h2><br>
-   <a href="https://github.com/dev-techguy/world-countries/issues">
-   <img src="https://img.shields.io/github/issues/dev-techguy/world-countries.svg">
+   <a align="center" href="https://github.com/dev-techguy/world-countries/issues">
+   <img align="center" src="https://img.shields.io/github/issues/dev-techguy/world-countries.svg">
    </a>
-   <a href="https://github.com/dev-techguy/world-countries/network/members">
-   <img src="https://img.shields.io/github/forks/dev-techguy/world-countries">
+   <a align="center" href="https://github.com/dev-techguy/world-countries/network/members">
+   <img align="center" src="https://img.shields.io/github/forks/dev-techguy/world-countries">
    </a>
-   <a href="https://github.com/dev-techguy/world-countries/stargazers">
-   <img src="https://img.shields.io/github/stars/dev-techguy/world-countries">
+   <a align="center" href="https://github.com/dev-techguy/world-countries/stargazers">
+   <img align="center" src="https://img.shields.io/github/stars/dev-techguy/world-countries">
    </a>
-   <a href="https://github.com/dev-techguy/world-countries/blob/master/LICENSE">
-   <img src="https://img.shields.io/github/license/dev-techguy/world-countries.svg">
+   <a align="center" href="https://github.com/dev-techguy/world-countries/blob/master/LICENSE">
+   <img align="center" src="https://img.shields.io/github/license/dev-techguy/world-countries.svg">
    </a>
-   <a href="https://packagist.org/packages/techguy/world-countries-api">
-   <img src="https://poser.pugx.org/techguy/world-countries-api/v">
+   <a align="center" href="https://packagist.org/packages/techguy/world-countries-api">
+   <img align="center" src="https://poser.pugx.org/techguy/world-countries-api/v">
    </a>
-   <a href="https://packagist.org/packages/techguy/world-countries-api">
-   <img src="https://poser.pugx.org/techguy/world-countries-api/downloads">
+   <a align="center" href="https://packagist.org/packages/techguy/world-countries-api">
+   <img align="center" src="https://poser.pugx.org/techguy/world-countries-api/downloads">
    </a>
    <br><br>
 </p>
