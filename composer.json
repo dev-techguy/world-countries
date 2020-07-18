@@ -1,0 +1,23 @@
+{
+    "name": "techguy/world-countries",
+    "description": "This package has api pointing to https://restcountries.eu. Fetches and stores all the countries in your local database.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^5.8|^6.0|^7.0",
+        "webpatser/laravel-uuid": "^3.0"
+    },
+    "keywords": [
+        "laravel",
+        "world",
+        "countries"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dev-techguy",
+            "email": "vincent@shiftech.co.ke"
+        }
+    ],
+    "minimum-stability": "dev"
+}
