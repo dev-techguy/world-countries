@@ -4,7 +4,7 @@
  <center>
    <h2><b>World countries API</b></h2><br>
    <a href="https://github.com/dev-techguy/world-countries/issues">
-   <img src="https://img.shields.io/github/issues/dev-techguy/world-countries.git">
+   <img src="https://img.shields.io/github/issues/dev-techguy/world-countries.svg">
    </a>
    <a href="https://github.com/dev-techguy/world-countries/network/members">
    <img src="https://img.shields.io/github/forks/dev-techguy/world-countries">
@@ -13,7 +13,7 @@
    <img src="https://img.shields.io/github/stars/dev-techguy/world-countries">
    </a>
    <a href="https://github.com/dev-techguy/world-countries/blob/master/LICENSE">
-   <img src="https://img.shields.io/github/license/dev-techguy/world-countries">
+   <img src="https://img.shields.io/github/license/dev-techguy/world-countries.svg">
    </a>
    <a href="https://packagist.org/packages/techguy/world-countries-api">
    <img src="https://poser.pugx.org/techguy/world-countries-api/v/stable">
