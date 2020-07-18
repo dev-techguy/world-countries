@@ -3,7 +3,7 @@
 <p align="center">
  <center>
   <h2><b>World countries API</b></h2><br>
-   <a href="https://github.com/SHIFTECH-AFRICA/shift-code-generator/issues">
+   <a href="https://github.com/dev-techguy/world-countries/issues">
    <img src="https://img.shields.io/github/issues/SHIFTECH-AFRICA/shift-code-generator.svg">
    </a>
    <a href="https://github.com/SHIFTECH-AFRICA/shift-code-generator/network/members">
@@ -51,23 +51,45 @@ composer dump-autoload
 Then run this, to get the for your own configurations:
 
 ```php
-# run this to get the configuration file at config/shift-code-generator.php <-- read through it -->
 php artisan vendor:publish --provider="World\Countries\WorldCountriesServiceProvider"
 ```
 
-You will have to add this in the *database/seeds/DatabaseSeeder*. To ensure we seed some data to set the default dates that will be used in generating the codes:
+You will have to add this in the *database/seeds/DatabaseSeeder*. Before using the package model seed data for the countries:
 
 ```php
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
-    public function run()
-    {
-         // other seeds...
-         $this->call(\World\Countries\Seeds\WorldCountriesTableSeeder::class);
-    }
+        /**
+         * Seed the application's database.
+         *
+         * @return void
+         */
+        public function run()
+        {
+             // other seeds...
+             $this->call(\World\Countries\Seeds\WorldCountriesTableSeeder::class);
+        }
+
+         /**
+         * -------------------------------------
+         * This is the sample data on how the
+         * country data is stored in an object
+         * -------------------------------------
+         */
+        {
+            "id": "c28967c0-c8e5-11ea-b5d1-dd807eb8f058",
+            "slug": "kenya",
+            "data": {
+                "flag": "https://restcountries.eu/data/ken.svg",
+                "name": "Kenya",
+                "capital": "Nairobi",
+                "short2Code": "KE",
+                "short3Code": "KEN",
+                "callingCode": "254",
+                "currencyCode": "KES"
+            },
+            "deleted_at": null,
+            "created_at": "2020-07-18T10:59:32.000000Z",
+            "updated_at": "2020-07-18T10:59:32.000000Z"
+        }
 ```
 
 ## Usage
