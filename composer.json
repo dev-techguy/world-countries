@@ -19,5 +19,17 @@
             "email": "vincent@shiftech.co.ke"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "World\\Countries\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "World\\Countries\\WorldCountriesServiceProvider"
+            ]
+        }
+    }
 }
