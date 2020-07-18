@@ -16,7 +16,7 @@
    <img src="https://img.shields.io/github/license/dev-techguy/world-countries.svg">
    </a>
    <a href="https://packagist.org/packages/techguy/world-countries-api">
-   <img src="https://poser.pugx.org/techguy/world-countries-api/v/stable">
+   <img src="https://poser.pugx.org/techguy/world-countries-api/v">
    </a>
    <a href="https://packagist.org/packages/techguy/world-countries-api">
    <img src="https://poser.pugx.org/techguy/world-countries-api/downloads">
