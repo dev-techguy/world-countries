@@ -15,6 +15,13 @@ class Country extends Model
      */
     public $incrementing = false;
 
+    /**
+     * type of auto-increment
+     *
+     * @string
+     */
+    protected $keyType = 'string';
+
     // casts
     protected $casts = [
         'data' => 'array'
