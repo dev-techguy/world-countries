@@ -103,7 +103,7 @@ Follow the steps below on how to use the *world-countries-api*:
 
 | Version | Status     | Packagist           | Namespace    | Repo                |
 |---------|------------|---------------------|--------------|---------------------|
-| 1.x     | Latest     | `techguy/world-countries-api` | `World\Countries` | [v1.1.1](https://github.com/dev-techguy/world-countries/releases/tag/v1.1.1)|
+| 1.x     | Latest     | `techguy/world-countries-api` | `World\Countries` | [v1.1.4](https://github.com/dev-techguy/world-countries/releases/tag/v1.1.4)|
 
 [world-countries-api-repo]: https://github.com/dev-techguy/world-countries.git
 
