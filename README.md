@@ -76,20 +76,22 @@ You will have to add this in the *database/seeds/DatabaseSeeder*. Before using t
          * -------------------------------------
          */
         {
-            "id": "c28967c0-c8e5-11ea-b5d1-dd807eb8f058",
-            "slug": "kenya",
-            "data": {
-                "flag": "https://restcountries.eu/data/ken.svg",
-                "name": "Kenya",
-                "capital": "Nairobi",
-                "short2Code": "KE",
-                "short3Code": "KEN",
-                "callingCode": "254",
-                "currencyCode": "KES"
-            },
-            "deleted_at": null,
-            "created_at": "2020-07-18T10:59:32.000000Z",
-            "updated_at": "2020-07-18T10:59:32.000000Z"
+        "id": "6ad0db80-c93b-11ea-9af5-bd4193f081f6",
+        "name": "Kenya",
+        "slug": "kenya",
+        "data": {
+            "flag": "https://restcountries.eu/data/ken.svg",
+            "name": "Kenya",
+            "capital": "Nairobi",
+            "short2Code": "KE",
+            "short3Code": "KEN",
+            "callingCode": "254",
+            "currencyCode": "KES",
+            "currencyName": "Kenyan shilling"
+        },
+        "deleted_at": null,
+        "created_at": "2020-07-18T21:12:42.000000Z",
+        "updated_at": "2020-07-18T21:12:42.000000Z"
         }
 ```
 
@@ -101,7 +103,7 @@ Follow the steps below on how to use the *world-countries-api*:
 
 | Version | Status     | Packagist           | Namespace    | Repo                |
 |---------|------------|---------------------|--------------|---------------------|
-| 1.x     | Latest     | `techguy/world-countries-api` | `World\Countries` | [v1.0.0](https://github.com/dev-techguy/world-countries/releases/tag/v1.0.0)|
+| 1.x     | Latest     | `techguy/world-countries-api` | `World\Countries` | [v1.1.4](https://github.com/dev-techguy/world-countries/releases/tag/v1.1.4)|
 
 [world-countries-api-repo]: https://github.com/dev-techguy/world-countries.git
 
