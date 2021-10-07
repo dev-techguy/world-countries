@@ -15,6 +15,25 @@ class WorldCountriesServiceProvider extends ServiceProvider
     public function boot()
     {
         /**
+         * ---------------------------
+         * load configuration file
+         * ---------------------------
+         */
+        $this->mergeConfigFrom(
+            __DIR__ . '/config/countries.php',
+            'countries'
+        );
+
+        /**
+         * ---------------------------
+         * publishing the config file
+         * ---------------------------
+         */
+        $this->publishes([
+            __DIR__ . '/config/countries.php' => config_path('countries.php'),
+        ], 'config');
+
+        /**
          * ------------------------------
          * load the migrations here
          * ------------------------------
@@ -37,7 +56,6 @@ class WorldCountriesServiceProvider extends ServiceProvider
          * ---------------------------------------------
          */
         $this->loadFactoriesFrom(__DIR__ . '/Seeds/WorldCountriesTableSeeder.php');
-
     }
 
     /**
