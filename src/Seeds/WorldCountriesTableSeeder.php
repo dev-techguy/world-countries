@@ -9,13 +9,15 @@ use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use Webpatser\Uuid\Uuid;
 use World\Countries\Model\Country;
 use World\Countries\Traits\API;
+use World\Countries\Traits\Uuids;
 
 class WorldCountriesTableSeeder extends Seeder
 {
     use API;
+
+    private \GuzzleHttp\Client $client;
 
     /**
      * Run the database seeds.
@@ -28,25 +30,25 @@ class WorldCountriesTableSeeder extends Seeder
     {
         // create countries
         $countries = $this->makeRequest();
-        $currencyCode = $currencyName = '';
+        $currencyCode = $currencyName = $flag = '';
 
         foreach ($countries as $country) {
             // loop to get the currencyCode
-            foreach ($country->currencies as $currency) {
-                $currencyCode = $currency->code;
-                $currencyName = $currency->name;
-            }
+            // foreach ($country->currencies as $currency) {
+            //     $currencyCode = $currency->code;
+            //     $currencyName = $currency->name;
+            // }
 
             // create model parameters
             $saveCountry = [
                 [
-                    'id' => Uuid::generate()->string,
+                    'id' => Uuids::generate()->string,
                     'name' => $country->name,
                     'slug' => Str::slug($country->name),
                     'data' => json_encode([
                         'name' => $country->name,
                         'capital' => $country->capital,
-                        'flag' => $country->flag,
+                        'flag' => $flag,
                         'short2Code' => $country->alpha2Code,
                         'short3Code' => $country->alpha3Code,
                         'currencyCode' => $currencyCode,
