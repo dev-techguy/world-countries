@@ -9,9 +9,9 @@ use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
+use Webpatser\Uuid\Uuid;
 use World\Countries\Model\Country;
 use World\Countries\Traits\API;
-use World\Countries\Traits\Uuids;
 
 class WorldCountriesTableSeeder extends Seeder
 {
@@ -42,7 +42,7 @@ class WorldCountriesTableSeeder extends Seeder
             // create model parameters
             $saveCountry = [
                 [
-                    'id' => Uuids::generate()->string,
+                    'id' => Uuid::generate()->string,
                     'name' => $country->name,
                     'slug' => Str::slug($country->name),
                     'data' => json_encode([
