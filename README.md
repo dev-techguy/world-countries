@@ -24,7 +24,7 @@
 </p>
 
 ## Introduction
-This package has api pointing to https://restcountries.eu. Fetches and stores all the countries in your local database.
+This package has api pointing to http://api.countrylayer.com. Fetches and stores all the countries in your local database.
 
 ## Installing
 The recommended way to install *world-countries-api* is through.
@@ -56,6 +56,11 @@ php artisan vendor:publish --provider="World\Countries\WorldCountriesServiceProv
 ```
 
 You will have to add this in the *database/seeds/DatabaseSeeder*. Before using the package model seed data for the countries:
+
+Set your *ACCESS_KEY* in the **.env** file.
+```dotenv
+COUNTRY_ACCESS_KEY=
+```
 
 ```php
         /**
@@ -98,12 +103,11 @@ You will have to add this in the *database/seeds/DatabaseSeeder*. Before using t
 ## Usage
 Follow the steps below on how to use the *world-countries-api*:
 
-
 ## Version Guidance
 
 | Version | Status     | Packagist           | Namespace    | Repo                |
 |---------|------------|---------------------|--------------|---------------------|
-| 1.x     | Latest     | `techguy/world-countries-api` | `World\Countries` | [v1.1.4](https://github.com/dev-techguy/world-countries/releases/tag/v1.1.4)|
+| 1.x     | Latest     | `techguy/world-countries-api` | `World\Countries` | [v1.1.7](https://github.com/dev-techguy/world-countries/releases/tag/v1.1.7)|
 
 [world-countries-api-repo]: https://github.com/dev-techguy/world-countries.git
 
